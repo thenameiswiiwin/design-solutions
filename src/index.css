@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --color-indigo: 252deg 66% 62%;
+    --color-orange: 28deg 89% 67%;
+    --color-pink: 0deg 78% 79%;
+    --color-red: 7deg 77% 66%;
+    --color-teal: 172deg 46% 57%;
+    --color-violet: 314deg 45% 23%;
+    --color-black: 0deg 0% 1%;
+    --color-gray: 30deg 5% 45%;
+    --color-white: 28deg 100% 97%;
+  }
+
+  body {
+    @apply bg-white text-base font-medium leading-base text-gray;
+  }
+  h1 {
+    @apply text-large font-bold leading-large;
+  }
+  h2 {
+    @apply text-medium font-bold leading-medium;
+  }
+  h3 {
+    @apply text-small font-bold leading-small;
+  }
+}
+
+@layer utilities {
+  .logo {
+    @apply flex h-16 w-16 items-center justify-center bg-black text-white;
+  }
+  .btn {
+    @apply rounded-full px-x py-y text-white;
+  }
+  .btn-primary {
+    @apply btn bg-black hover:bg-indigo;
+  }
+  .btn-secondary {
+    @apply btn bg-red hover:bg-orange;
+  }
+  .btn-arrow {
+    @apply flex h-16 w-16 text-black hover:text-indigo;
+  }
+}

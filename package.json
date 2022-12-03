@@ -1,7 +1,7 @@
 {
-  "name": "vite-react-ts-minimal-template",
+  "name": "design-solutions",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -13,6 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
