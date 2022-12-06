@@ -64,4 +64,11 @@
   .btn-arrow {
     @apply flex h-16 w-16 text-black hover:text-indigo;
   }
+  .carousel-item {
+    @apply box-content flex flex-none;
+    scroll-snap-align: start;
+  }
+  .carousel-center .carousel-item {
+    scroll-snap-align: center;
+  }
 }
