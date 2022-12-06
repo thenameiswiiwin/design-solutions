@@ -9,7 +9,7 @@ const CATEGORIES = [
   {
     img: graphicDesign,
     title: 'Graphic Design',
-    style: 'col-span-2 bg-indigo space-y-23',
+    style: 'col-span-2 md:row-span-2 bg-indigo space-y-23',
   },
   { img: uiUX, title: 'UI/UX', style: 'bg-orange space-y-10' },
   { img: apps, title: 'Apps', style: 'bg-pink space-y-10' },
@@ -30,9 +30,9 @@ const CATEGORIES = [
   },
 ];
 
-const Categories = () => {
+const Cards = () => {
   return (
-    <div className="grid grid-cols-2 gap-6">
+    <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:grid-rows-2">
       {CATEGORIES.map((category) => (
         <div
           key={category.title}
@@ -46,4 +46,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default Cards;

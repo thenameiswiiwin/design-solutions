@@ -2,30 +2,23 @@ import Nav from './Nav';
 import Skills from './Skills';
 import Bio from './Bio';
 import Work from './Work';
+import Contact from './Contact';
 
 const App = () => {
   return (
-    <div className="container space-y-8 py-4 md:py-8">
+    <div className="space-y-8 py-4 md:space-y-16 md:py-34">
       <header>
         <Nav />
       </header>
-      <main className="space-y-25">
+      <main className="space-y-25 md:space-y-120">
         <Skills />
         <Bio />
         <Work />
-        <section className="space-y-6 rounded-xl bg-black px-6 py-49 text-center">
-          <h2>Book a call with me</h2>
-          <p>
-            I’d love to have a chat to see how I can help you. The best first
-            step is for us to discuss your project during a free consultation.
-            Then we can move forward from there.
-          </p>
-          <button type="button" className="btn-secondary">
-            Free Consultation
-          </button>
-        </section>
+        <Contact />
       </main>
-      {/* <footer></footer> */}
+      <footer>
+        <Nav />
+      </footer>
     </div>
   );
 };
