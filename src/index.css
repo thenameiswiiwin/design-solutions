@@ -32,25 +32,28 @@
   }
 
   body {
-    @apply bg-white text-base font-medium leading-base text-gray;
+    @apply bg-white text-base font-medium font-sans text-gray md:text-base-tablet;
   }
   h1 {
-    @apply text-large font-bold leading-large;
+    @apply text-h1 font-bold md:text-h1-tablet lg:text-h1-desktop;
   }
   h2 {
-    @apply text-medium font-bold leading-medium;
+    @apply text-h2 font-bold md:text-h2-tablet lg:text-h2-desktop;
   }
   h3 {
-    @apply text-small font-bold leading-small;
+    @apply text-h3 font-bold md:text-h3-tablet;
+  }
+  button {
+    @apply text-btn text-white md:text-btn-lg;
   }
 }
 
 @layer utilities {
   .logo {
-    @apply flex h-16 w-16 items-center justify-center bg-black text-white;
+    @apply flex h-12 w-12 items-center justify-center bg-black text-white md:h-16 md:w-16;
   }
   .btn {
-    @apply rounded-full px-x py-y text-white;
+    @apply rounded-full px-x-mobile py-y-mobile md:px-x md:py-y;
   }
   .btn-primary {
     @apply btn bg-black hover:bg-indigo;

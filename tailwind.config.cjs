@@ -3,6 +3,13 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        md: '2.4375rem',
+      },
+    },
     colors: {
       indigo: 'hsl(var(--color-indigo) / <alpha-value>)',
       orange: 'hsl(var(--color-orange) / <alpha-value>)',
@@ -19,20 +26,25 @@ module.exports = {
         sans: ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
-        large: '3.5rem',
-        medium: '2.5rem',
-        small: '2rem',
-        base: '1.125rem',
-      },
-      lineHeight: {
-        large: '4.375rem',
-        medium: '3.1875rem',
-        small: '2.5rem',
-        base: '1.75rem',
+        category: [''],
+        btn: ['0.875rem', '1.75rem'],
+        'btn-lg': ['1rem', '1.75rem'],
+        h1: ['2.25rem', '2.835rem'],
+        'h1-tablet': ['2.75rem', '3.465rem'],
+        'h1-desktop': ['3.5rem', '4.375rem'],
+        h2: ['1.625rem', '2.0475rem'],
+        'h2-tablet': ['2rem', '2.52rem'],
+        'h2-desktop': ['2.5rem', '3.1875rem'],
+        h3: ['1.5rem', '1.89rem'],
+        'h3-tablet': ['2rem', '2.5rem'],
+        base: ['1.03rem', '1.625rem'],
+        'base-tablet': ['1.125rem', '1.75rem'],
       },
       padding: {
         x: '2.8125rem',
+        'x-mobile': '1.6875rem',
         y: '0.875rem',
+        'y-mobile': '0.5rem',
       },
     },
   },
