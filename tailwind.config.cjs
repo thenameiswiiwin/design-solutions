@@ -41,10 +41,14 @@ module.exports = {
         'base-tablet': ['1.125rem', '1.75rem'],
       },
       padding: {
-        x: '2.8125rem',
-        'x-mobile': '1.6875rem',
-        y: '0.875rem',
-        'y-mobile': '0.5rem',
+        x: '1.6875rem',
+        'x-md': '2.8125rem',
+        y: '0.5rem',
+        'y-md': '0.875rem',
+        29: '1.8125rem',
+      },
+      spacing: {
+        23: '5.875rem',
       },
     },
   },
