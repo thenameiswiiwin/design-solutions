@@ -1,6 +1,4 @@
 import {
-  /* ArrowLeftCircleIcon, */
-  /* ArrowRightCircleIcon, */
   CubeIcon,
 } from '@heroicons/react/24/solid';
 

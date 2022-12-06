@@ -8,6 +8,7 @@ module.exports = {
       padding: {
         DEFAULT: '1rem',
         md: '2.4375rem',
+        xl: '10.3125rem',
       },
     },
     colors: {
@@ -43,11 +44,14 @@ module.exports = {
       height: {
         180: '11.25rem',
         360: '22.5rem',
+        410: '25.625rem',
       },
       width: {
         270: '16.875rem',
         364: '22.75rem',
+        410: '25.625rem',
         540: '33.75rem',
+        700: '43.75rem',
       },
       padding: {
         x: '1.6875rem',
@@ -57,12 +61,14 @@ module.exports = {
         29: '1.8125rem',
         34: '2.125rem',
         49: '3.0625rem',
-        114: '7.125rem',
+        75: '4.6875rem',
       },
       spacing: {
         23: '5.875rem',
         25: '6.25rem',
+        66: '4.125rem',
         120: '7.5rem',
+        136: '8.5rem',
       },
     },
   },

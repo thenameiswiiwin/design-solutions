@@ -35,10 +35,10 @@
     @apply bg-white font-sans text-base font-medium text-white md:text-base-tablet;
   }
   h1 {
-    @apply text-h1 font-bold md:text-h1-tablet lg:text-h1-desktop;
+    @apply text-h1 font-bold md:text-h1-tablet xl:text-h1-desktop;
   }
   h2 {
-    @apply text-h2 font-bold md:text-h2-tablet lg:text-h2-desktop;
+    @apply text-h2 font-bold md:text-h2-tablet xl:text-h2-desktop;
   }
   h3 {
     @apply text-h3 font-bold md:text-h3-tablet;

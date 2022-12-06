@@ -14,7 +14,7 @@ const Slides = ({ images, current }: SlidesProps) => {
           <img
             src={image.url}
             alt={image.url}
-            className="h-180 w-270 md:w-540 md:h-360 rounded-xl"
+            className="h-180 w-270 rounded-xl md:h-360 md:w-540"
           />
         </div>
       ))}

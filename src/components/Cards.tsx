@@ -21,7 +21,7 @@ const CATEGORIES = [
   {
     img: photography,
     title: 'Photography',
-    style: 'col-span-2 bg-teal space-y-10',
+    style: 'col-span-2 xl:col-start-5 xl:row-start-1 bg-teal space-y-10',
   },
   {
     img: motionGraphics,
@@ -32,7 +32,7 @@ const CATEGORIES = [
 
 const Cards = () => {
   return (
-    <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:grid-rows-2">
+    <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:grid-rows-2 xl:grid-cols-6">
       {CATEGORIES.map((category) => (
         <div
           key={category.title}

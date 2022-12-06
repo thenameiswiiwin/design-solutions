@@ -3,8 +3,12 @@ import Button from './Button';
 
 const Bio = () => {
   return (
-    <section className="grid grid-rows-1 place-items-center gap-8 px-4 md:grid-cols-2 md:gap-[69px]">
-      <img src={Amy} alt="Amy" className="md:h-364 md:mr-28 md:w-364" />
+    <section className="grid grid-rows-1 place-items-center gap-8 px-4 md:grid-cols-2 md:gap-[69px] xl:container xl:place-items-center">
+      <img
+        src={Amy}
+        alt="Amy"
+        className="md:h-364 md:mr-28 md:w-364 xl:mr-0 xl:h-410 xl:w-410 xl:justify-self-start"
+      />
       <div className="space-y-6 text-center md:pr-6 md:text-start">
         <h2 className="text-black">
           I’m Amy, and I’d love to work on your next project
