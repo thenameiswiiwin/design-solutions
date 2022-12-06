@@ -46,6 +46,7 @@ module.exports = {
         y: '0.5rem',
         'y-md': '0.875rem',
         29: '1.8125rem',
+        49: '3.0625rem',
       },
       spacing: {
         23: '5.875rem',

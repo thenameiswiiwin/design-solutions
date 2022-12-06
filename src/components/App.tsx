@@ -13,6 +13,17 @@ const App = () => {
         <Skills />
         <Bio />
         <Work />
+        <section className="space-y-6 rounded-xl bg-black px-6 py-49 text-center">
+          <h2>Book a call with me</h2>
+          <p>
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+          <button type="button" className="btn-secondary">
+            Free Consultation
+          </button>
+        </section>
       </main>
       {/* <footer></footer> */}
     </div>

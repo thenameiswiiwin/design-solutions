@@ -32,7 +32,7 @@ const Work = () => {
             <img
               src={image.url}
               alt={image.url}
-              className="h-[180px] w-[270px] rounded-lg"
+              className="h-[180px] w-[270px] rounded-xl"
             />
           </div>
         ))}

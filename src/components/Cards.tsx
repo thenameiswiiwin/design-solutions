@@ -32,7 +32,7 @@ const CATEGORIES = [
 
 const Categories = () => {
   return (
-    <div className="grid grid-cols-2 gap-6 text-white">
+    <div className="grid grid-cols-2 gap-6">
       {CATEGORIES.map((category) => (
         <div
           key={category.title}

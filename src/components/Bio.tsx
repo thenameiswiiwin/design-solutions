@@ -8,7 +8,7 @@ const Bio = () => {
         <h2 className="text-black">
           I’m Amy, and I’d love to work on your next project
         </h2>
-        <p>
+        <p className="text-gray">
           I love working with others to create beautiful design solutions. I’ve
           designed everything from brand illustrations to complete mobile apps.
           I’m also handy with a camera!
