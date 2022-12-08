@@ -1,6 +1,4 @@
-import {
-  CubeIcon,
-} from '@heroicons/react/24/solid';
+import { CubeIcon } from '@heroicons/react/24/solid';
 
 const Logo = () => {
   return (
