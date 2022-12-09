@@ -27,7 +27,6 @@ module.exports = {
         sans: ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
-        category: [''],
         btn: ['0.875rem', '1.75rem'],
         'btn-lg': ['1rem', '1.75rem'],
         h1: ['2.25rem', '2.835rem'],
