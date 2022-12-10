@@ -3,13 +3,9 @@ import {
   ArrowLeftCircleIcon,
   ArrowRightCircleIcon,
 } from '@heroicons/react/24/solid';
-import Work1 from '../assets/images/work-1.png';
-import Work2 from '../assets/images/work-2.png';
-import Work3 from '../assets/images/work-3.png';
 import Slides from './Slides';
 import SlideButton from './SlideButton';
-
-const IMAGES = [{ url: Work1 }, { url: Work2 }, { url: Work3 }];
+import { IMAGES } from '../data/data';
 
 const Work = () => {
   const [current, setCurrent] = useState(1);

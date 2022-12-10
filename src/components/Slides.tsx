@@ -1,7 +1,7 @@
-interface SlidesProps {
+type SlidesProps = {
   images: { url: string }[];
   current: number;
-}
+};
 
 const Slides = ({ images, current }: SlidesProps) => {
   return (
